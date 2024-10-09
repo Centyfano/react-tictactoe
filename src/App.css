@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  border: 1px solid grey;
+  background-color: aliceblue;
+  margin: 2px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
